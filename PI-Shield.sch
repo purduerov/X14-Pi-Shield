@@ -8834,6 +8834,291 @@ by exp-lbrs.ulp</description>
 </deviceset>
 </devicesets>
 </library>
+<library name="micro-philips" urn="urn:adsk.eagle:library:290">
+<description>&lt;b&gt;Philips Microcontroller Devices&lt;/b&gt;&lt;p&gt;
+http://www-eu2.semiconductors.com&lt;p&gt;
+&lt;author&gt;Created by librarian@cadsoft.de&lt;/author&gt;</description>
+<packages>
+<package name="DIL16" urn="urn:adsk.eagle:footprint:20071/1" library_version="4">
+<description>&lt;b&gt;Dual In Line&lt;/b&gt;</description>
+<wire x1="-10.16" y1="-0.635" x2="-10.16" y2="-2.794" width="0.1524" layer="21"/>
+<wire x1="-10.16" y1="-0.635" x2="-10.16" y2="0.635" width="0.1524" layer="21" curve="180"/>
+<wire x1="-10.16" y1="-2.794" x2="10.16" y2="-2.794" width="0.1524" layer="21"/>
+<wire x1="10.16" y1="-2.794" x2="10.16" y2="2.794" width="0.1524" layer="21"/>
+<wire x1="10.16" y1="2.794" x2="-10.16" y2="2.794" width="0.1524" layer="21"/>
+<wire x1="-10.16" y1="2.794" x2="-10.16" y2="0.635" width="0.1524" layer="21"/>
+<pad name="1" x="-8.89" y="-3.81" drill="0.8128" shape="long" rot="R90"/>
+<pad name="2" x="-6.35" y="-3.81" drill="0.8128" shape="long" rot="R90"/>
+<pad name="3" x="-3.81" y="-3.81" drill="0.8128" shape="long" rot="R90"/>
+<pad name="4" x="-1.27" y="-3.81" drill="0.8128" shape="long" rot="R90"/>
+<pad name="5" x="1.27" y="-3.81" drill="0.8128" shape="long" rot="R90"/>
+<pad name="6" x="3.81" y="-3.81" drill="0.8128" shape="long" rot="R90"/>
+<pad name="7" x="6.35" y="-3.81" drill="0.8128" shape="long" rot="R90"/>
+<pad name="8" x="8.89" y="-3.81" drill="0.8128" shape="long" rot="R90"/>
+<pad name="9" x="8.89" y="3.81" drill="0.8128" shape="long" rot="R90"/>
+<pad name="10" x="6.35" y="3.81" drill="0.8128" shape="long" rot="R90"/>
+<pad name="11" x="3.81" y="3.81" drill="0.8128" shape="long" rot="R90"/>
+<pad name="12" x="1.27" y="3.81" drill="0.8128" shape="long" rot="R90"/>
+<pad name="13" x="-1.27" y="3.81" drill="0.8128" shape="long" rot="R90"/>
+<pad name="14" x="-3.81" y="3.81" drill="0.8128" shape="long" rot="R90"/>
+<pad name="15" x="-6.35" y="3.81" drill="0.8128" shape="long" rot="R90"/>
+<pad name="16" x="-8.89" y="3.81" drill="0.8128" shape="long" rot="R90"/>
+<text x="-10.5664" y="-2.794" size="1.778" layer="25" ratio="10" rot="R90">&gt;NAME</text>
+<text x="-8.89" y="-0.9652" size="1.778" layer="27" ratio="10">&gt;VALUE</text>
+</package>
+<package name="SO16W" urn="urn:adsk.eagle:footprint:20072/1" library_version="4">
+<description>&lt;b&gt;Small Outline Package&lt;/b&gt; 7.6 x 10.6 mm</description>
+<wire x1="5.19" y1="-3.7" x2="-5.19" y2="-3.7" width="0.2032" layer="51"/>
+<wire x1="-5.19" y1="-3.7" x2="-5.19" y2="-3.2" width="0.2032" layer="51"/>
+<wire x1="-5.19" y1="-3.2" x2="-5.19" y2="3.7" width="0.2032" layer="51"/>
+<wire x1="-5.19" y1="3.7" x2="5.19" y2="3.7" width="0.2032" layer="51"/>
+<wire x1="5.19" y1="-3.2" x2="-5.19" y2="-3.2" width="0.2032" layer="51"/>
+<wire x1="5.19" y1="3.7" x2="5.19" y2="-3.2" width="0.2032" layer="51"/>
+<wire x1="5.19" y1="-3.2" x2="5.19" y2="-3.7" width="0.2032" layer="51"/>
+<smd name="2" x="-3.175" y="-4.6" dx="0.6" dy="2.2" layer="1"/>
+<smd name="13" x="-0.635" y="4.6" dx="0.6" dy="2.2" layer="1"/>
+<smd name="1" x="-4.445" y="-4.6" dx="0.6" dy="2.2" layer="1"/>
+<smd name="3" x="-1.905" y="-4.6" dx="0.6" dy="2.2" layer="1"/>
+<smd name="4" x="-0.635" y="-4.6" dx="0.6" dy="2.2" layer="1"/>
+<smd name="14" x="-1.905" y="4.6" dx="0.6" dy="2.2" layer="1"/>
+<smd name="12" x="0.635" y="4.6" dx="0.6" dy="2.2" layer="1"/>
+<smd name="11" x="1.905" y="4.6" dx="0.6" dy="2.2" layer="1"/>
+<smd name="6" x="1.905" y="-4.6" dx="0.6" dy="2.2" layer="1"/>
+<smd name="9" x="4.445" y="4.6" dx="0.6" dy="2.2" layer="1"/>
+<smd name="5" x="0.635" y="-4.6" dx="0.6" dy="2.2" layer="1"/>
+<smd name="7" x="3.175" y="-4.6" dx="0.6" dy="2.2" layer="1"/>
+<smd name="10" x="3.175" y="4.6" dx="0.6" dy="2.2" layer="1"/>
+<smd name="8" x="4.445" y="-4.6" dx="0.6" dy="2.2" layer="1"/>
+<smd name="15" x="-3.175" y="4.6" dx="0.6" dy="2.2" layer="1"/>
+<smd name="16" x="-4.445" y="4.6" dx="0.6" dy="2.2" layer="1"/>
+<text x="-5.588" y="-3.683" size="1.27" layer="25" rot="R90">&gt;NAME</text>
+<text x="6.858" y="-3.683" size="1.27" layer="27" rot="R90">&gt;VALUE</text>
+<rectangle x1="-4.69" y1="-5.32" x2="-4.2" y2="-3.8" layer="51"/>
+<rectangle x1="-3.42" y1="-5.32" x2="-2.93" y2="-3.8" layer="51"/>
+<rectangle x1="-2.15" y1="-5.32" x2="-1.66" y2="-3.8" layer="51"/>
+<rectangle x1="-0.88" y1="-5.32" x2="-0.39" y2="-3.8" layer="51"/>
+<rectangle x1="0.39" y1="-5.32" x2="0.88" y2="-3.8" layer="51"/>
+<rectangle x1="1.66" y1="-5.32" x2="2.15" y2="-3.8" layer="51"/>
+<rectangle x1="2.93" y1="-5.32" x2="3.42" y2="-3.8" layer="51"/>
+<rectangle x1="4.2" y1="-5.32" x2="4.69" y2="-3.8" layer="51"/>
+<rectangle x1="4.2" y1="3.8" x2="4.69" y2="5.32" layer="51"/>
+<rectangle x1="2.93" y1="3.8" x2="3.42" y2="5.32" layer="51"/>
+<rectangle x1="1.66" y1="3.8" x2="2.15" y2="5.32" layer="51"/>
+<rectangle x1="0.39" y1="3.8" x2="0.88" y2="5.32" layer="51"/>
+<rectangle x1="-0.88" y1="3.8" x2="-0.39" y2="5.32" layer="51"/>
+<rectangle x1="-2.15" y1="3.8" x2="-1.66" y2="5.32" layer="51"/>
+<rectangle x1="-3.42" y1="3.8" x2="-2.93" y2="5.32" layer="51"/>
+<rectangle x1="-4.69" y1="3.8" x2="-4.2" y2="5.32" layer="51"/>
+</package>
+<package name="SSOP20" urn="urn:adsk.eagle:footprint:20073/1" library_version="4">
+<description>&lt;b&gt;plastic shrink small outline package&lt;/b&gt; 20 leads; body width 4.4 mm SOT266-1&lt;p&gt;
+Source: http://www.semiconductors.philips.com/acrobat_download/datasheets/PCF8574_4.pdf</description>
+<wire x1="3.16" y1="-2.1" x2="-3.16" y2="-2.1" width="0.2032" layer="51"/>
+<wire x1="-3.16" y1="-2.1" x2="-3.16" y2="-1.6" width="0.2032" layer="51"/>
+<wire x1="-3.16" y1="-1.6" x2="-3.16" y2="2.1" width="0.2032" layer="51"/>
+<wire x1="-3.16" y1="2.1" x2="3.16" y2="2.1" width="0.2032" layer="51"/>
+<wire x1="3.16" y1="-1.6" x2="-3.16" y2="-1.6" width="0.2032" layer="51"/>
+<wire x1="3.16" y1="2.1" x2="3.16" y2="-1.6" width="0.2032" layer="51"/>
+<wire x1="3.16" y1="-1.6" x2="3.16" y2="-2.1" width="0.2032" layer="51"/>
+<smd name="1" x="-2.925" y="-2.85" dx="0.35" dy="1.2" layer="1"/>
+<smd name="2" x="-2.275" y="-2.85" dx="0.35" dy="1.2" layer="1"/>
+<smd name="3" x="-1.625" y="-2.85" dx="0.35" dy="1.2" layer="1"/>
+<smd name="4" x="-0.975" y="-2.85" dx="0.35" dy="1.2" layer="1"/>
+<smd name="5" x="-0.325" y="-2.85" dx="0.35" dy="1.2" layer="1"/>
+<smd name="6" x="0.325" y="-2.85" dx="0.35" dy="1.2" layer="1"/>
+<smd name="7" x="0.975" y="-2.85" dx="0.35" dy="1.2" layer="1"/>
+<smd name="8" x="1.625" y="-2.85" dx="0.35" dy="1.2" layer="1"/>
+<smd name="9" x="2.275" y="-2.85" dx="0.35" dy="1.2" layer="1"/>
+<smd name="10" x="2.925" y="-2.85" dx="0.35" dy="1.2" layer="1"/>
+<smd name="11" x="2.925" y="2.85" dx="0.35" dy="1.2" layer="1" rot="R180"/>
+<smd name="12" x="2.275" y="2.85" dx="0.35" dy="1.2" layer="1" rot="R180"/>
+<smd name="13" x="1.625" y="2.85" dx="0.35" dy="1.2" layer="1" rot="R180"/>
+<smd name="14" x="0.975" y="2.85" dx="0.35" dy="1.2" layer="1" rot="R180"/>
+<smd name="15" x="0.325" y="2.85" dx="0.35" dy="1.2" layer="1" rot="R180"/>
+<smd name="16" x="-0.325" y="2.85" dx="0.35" dy="1.2" layer="1" rot="R180"/>
+<smd name="17" x="-0.975" y="2.85" dx="0.35" dy="1.2" layer="1" rot="R180"/>
+<smd name="18" x="-1.625" y="2.85" dx="0.35" dy="1.2" layer="1" rot="R180"/>
+<smd name="19" x="-2.275" y="2.85" dx="0.35" dy="1.2" layer="1" rot="R180"/>
+<smd name="20" x="-2.925" y="2.85" dx="0.35" dy="1.2" layer="1" rot="R180"/>
+<text x="-3.81" y="-1.905" size="1.27" layer="25" rot="R90">&gt;NAME</text>
+<text x="-2.54" y="-0.635" size="1.27" layer="27">&gt;VALUE</text>
+<rectangle x1="-3.075" y1="-3.3" x2="-2.775" y2="-2.2" layer="51"/>
+<rectangle x1="-2.425" y1="-3.3" x2="-2.125" y2="-2.2" layer="51"/>
+<rectangle x1="-1.775" y1="-3.3" x2="-1.475" y2="-2.2" layer="51"/>
+<rectangle x1="-1.125" y1="-3.3" x2="-0.825" y2="-2.2" layer="51"/>
+<rectangle x1="-0.475" y1="-3.3" x2="-0.175" y2="-2.2" layer="51"/>
+<rectangle x1="0.175" y1="-3.3" x2="0.475" y2="-2.2" layer="51"/>
+<rectangle x1="0.825" y1="-3.3" x2="1.125" y2="-2.2" layer="51"/>
+<rectangle x1="1.475" y1="-3.3" x2="1.775" y2="-2.2" layer="51"/>
+<rectangle x1="2.125" y1="-3.3" x2="2.425" y2="-2.2" layer="51"/>
+<rectangle x1="2.775" y1="-3.3" x2="3.075" y2="-2.2" layer="51"/>
+<rectangle x1="2.775" y1="2.2" x2="3.075" y2="3.3" layer="51" rot="R180"/>
+<rectangle x1="2.125" y1="2.2" x2="2.425" y2="3.3" layer="51" rot="R180"/>
+<rectangle x1="1.475" y1="2.2" x2="1.775" y2="3.3" layer="51" rot="R180"/>
+<rectangle x1="0.825" y1="2.2" x2="1.125" y2="3.3" layer="51" rot="R180"/>
+<rectangle x1="0.175" y1="2.2" x2="0.475" y2="3.3" layer="51" rot="R180"/>
+<rectangle x1="-0.475" y1="2.2" x2="-0.175" y2="3.3" layer="51" rot="R180"/>
+<rectangle x1="-1.125" y1="2.2" x2="-0.825" y2="3.3" layer="51" rot="R180"/>
+<rectangle x1="-1.775" y1="2.2" x2="-1.475" y2="3.3" layer="51" rot="R180"/>
+<rectangle x1="-2.425" y1="2.2" x2="-2.125" y2="3.3" layer="51" rot="R180"/>
+<rectangle x1="-3.075" y1="2.2" x2="-2.775" y2="3.3" layer="51" rot="R180"/>
+</package>
+</packages>
+<packages3d>
+<package3d name="DIL16" urn="urn:adsk.eagle:package:20171/1" type="box" library_version="4">
+<description>Dual In Line</description>
+<packageinstances>
+<packageinstance name="DIL16"/>
+</packageinstances>
+</package3d>
+<package3d name="SO16W" urn="urn:adsk.eagle:package:20172/1" type="box" library_version="4">
+<description>Small Outline Package 7.6 x 10.6 mm</description>
+<packageinstances>
+<packageinstance name="SO16W"/>
+</packageinstances>
+</package3d>
+<package3d name="SSOP20" urn="urn:adsk.eagle:package:20175/1" type="box" library_version="4">
+<description>plastic shrink small outline package 20 leads; body width 4.4 mm SOT266-1
+Source: http://www.semiconductors.philips.com/acrobat_download/datasheets/PCF8574_4.pdf</description>
+<packageinstances>
+<packageinstance name="SSOP20"/>
+</packageinstances>
+</package3d>
+</packages3d>
+<symbols>
+<symbol name="PCF8574" urn="urn:adsk.eagle:symbol:20070/1" library_version="4">
+<wire x1="-7.62" y1="15.24" x2="10.16" y2="15.24" width="0.254" layer="94"/>
+<wire x1="10.16" y1="15.24" x2="10.16" y2="-17.78" width="0.254" layer="94"/>
+<wire x1="10.16" y1="-17.78" x2="-7.62" y2="-17.78" width="0.254" layer="94"/>
+<wire x1="-7.62" y1="-17.78" x2="-7.62" y2="15.24" width="0.254" layer="94"/>
+<text x="-7.62" y="16.51" size="1.778" layer="95">&gt;NAME</text>
+<text x="-7.62" y="-20.32" size="1.778" layer="96">&gt;VALUE</text>
+<pin name="SCL" x="-10.16" y="0" length="short" direction="in"/>
+<pin name="SDA" x="-10.16" y="2.54" length="short"/>
+<pin name="A0" x="-10.16" y="-5.08" length="short" direction="in"/>
+<pin name="A1" x="-10.16" y="-7.62" length="short" direction="in"/>
+<pin name="A2" x="-10.16" y="-10.16" length="short" direction="in"/>
+<pin name="!INT" x="-10.16" y="7.62" length="short" direction="out"/>
+<pin name="VSS" x="12.7" y="-15.24" length="short" direction="pwr" rot="R180"/>
+<pin name="VDD" x="12.7" y="12.7" length="short" direction="pwr" rot="R180"/>
+<pin name="P0" x="12.7" y="7.62" length="short" rot="R180"/>
+<pin name="P1" x="12.7" y="5.08" length="short" rot="R180"/>
+<pin name="P2" x="12.7" y="2.54" length="short" rot="R180"/>
+<pin name="P3" x="12.7" y="0" length="short" rot="R180"/>
+<pin name="P4" x="12.7" y="-2.54" length="short" rot="R180"/>
+<pin name="P5" x="12.7" y="-5.08" length="short" rot="R180"/>
+<pin name="P6" x="12.7" y="-7.62" length="short" rot="R180"/>
+<pin name="P7" x="12.7" y="-10.16" length="short" rot="R180"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="PCF8574" urn="urn:adsk.eagle:component:20210/2" prefix="IC" library_version="4">
+<description>I2C-Bus &lt;b&gt;Remote 8-bit I/O expander&lt;/b&gt;&lt;p&gt;
+http://www.semiconductors.philips.com/acrobat_download/datasheets/PCF8574_4.pdf</description>
+<gates>
+<gate name="G$1" symbol="PCF8574" x="0" y="0"/>
+</gates>
+<devices>
+<device name="P" package="DIL16">
+<connects>
+<connect gate="G$1" pin="!INT" pad="13"/>
+<connect gate="G$1" pin="A0" pad="1"/>
+<connect gate="G$1" pin="A1" pad="2"/>
+<connect gate="G$1" pin="A2" pad="3"/>
+<connect gate="G$1" pin="P0" pad="4"/>
+<connect gate="G$1" pin="P1" pad="5"/>
+<connect gate="G$1" pin="P2" pad="6"/>
+<connect gate="G$1" pin="P3" pad="7"/>
+<connect gate="G$1" pin="P4" pad="9"/>
+<connect gate="G$1" pin="P5" pad="10"/>
+<connect gate="G$1" pin="P6" pad="11"/>
+<connect gate="G$1" pin="P7" pad="12"/>
+<connect gate="G$1" pin="SCL" pad="14"/>
+<connect gate="G$1" pin="SDA" pad="15"/>
+<connect gate="G$1" pin="VDD" pad="16"/>
+<connect gate="G$1" pin="VSS" pad="8"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:20171/1"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="MF" value="" constant="no"/>
+<attribute name="MPN" value="PCF8574PN" constant="no"/>
+<attribute name="OC_FARNELL" value="204020" constant="no"/>
+<attribute name="OC_NEWARK" value="11N8515" constant="no"/>
+<attribute name="POPULARITY" value="3" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="T" package="SO16W">
+<connects>
+<connect gate="G$1" pin="!INT" pad="13"/>
+<connect gate="G$1" pin="A0" pad="1"/>
+<connect gate="G$1" pin="A1" pad="2"/>
+<connect gate="G$1" pin="A2" pad="3"/>
+<connect gate="G$1" pin="P0" pad="4"/>
+<connect gate="G$1" pin="P1" pad="5"/>
+<connect gate="G$1" pin="P2" pad="6"/>
+<connect gate="G$1" pin="P3" pad="7"/>
+<connect gate="G$1" pin="P4" pad="9"/>
+<connect gate="G$1" pin="P5" pad="10"/>
+<connect gate="G$1" pin="P6" pad="11"/>
+<connect gate="G$1" pin="P7" pad="12"/>
+<connect gate="G$1" pin="SCL" pad="14"/>
+<connect gate="G$1" pin="SDA" pad="15"/>
+<connect gate="G$1" pin="VDD" pad="16"/>
+<connect gate="G$1" pin="VSS" pad="8"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:20172/1"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="MF" value="" constant="no"/>
+<attribute name="MPN" value="PCF8574T/3,512" constant="no"/>
+<attribute name="OC_FARNELL" value="1201255" constant="no"/>
+<attribute name="OC_NEWARK" value="70R6870" constant="no"/>
+<attribute name="POPULARITY" value="3" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="TS" package="SSOP20">
+<connects>
+<connect gate="G$1" pin="!INT" pad="1"/>
+<connect gate="G$1" pin="A0" pad="6"/>
+<connect gate="G$1" pin="A1" pad="7"/>
+<connect gate="G$1" pin="A2" pad="9"/>
+<connect gate="G$1" pin="P0" pad="10"/>
+<connect gate="G$1" pin="P1" pad="11"/>
+<connect gate="G$1" pin="P2" pad="12"/>
+<connect gate="G$1" pin="P3" pad="14"/>
+<connect gate="G$1" pin="P4" pad="16"/>
+<connect gate="G$1" pin="P5" pad="17"/>
+<connect gate="G$1" pin="P6" pad="19"/>
+<connect gate="G$1" pin="P7" pad="20"/>
+<connect gate="G$1" pin="SCL" pad="2"/>
+<connect gate="G$1" pin="SDA" pad="4"/>
+<connect gate="G$1" pin="VDD" pad="5"/>
+<connect gate="G$1" pin="VSS" pad="15"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:20175/1"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="MF" value="" constant="no"/>
+<attribute name="MPN" value="PCF8574TS/3,118" constant="no"/>
+<attribute name="OC_FARNELL" value="1506644" constant="no"/>
+<attribute name="OC_NEWARK" value="70R6873" constant="no"/>
+<attribute name="POPULARITY" value="0" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -8974,7 +9259,7 @@ by exp-lbrs.ulp</description>
 <part name="FRAME6" library="SparkFun-Aesthetics" library_urn="urn:adsk.eagle:library:507" deviceset="FRAME-A4L" device=""/>
 <part name="U3" library="ULN2003V12" deviceset="ULN2003V12" device=""/>
 <part name="U$9" library="Solenoid-Backplane Connector" deviceset="SOL-TO-BKP" device="" package3d_urn="urn:adsk.eagle:package:25885912/2"/>
-<part name="J18" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="CONN_02" device="" package3d_urn="urn:adsk.eagle:package:38039/1"/>
+<part name="IC1" library="micro-philips" library_urn="urn:adsk.eagle:library:290" deviceset="PCF8574" device="T" package3d_urn="urn:adsk.eagle:package:20172/1"/>
 </parts>
 <sheets>
 <sheet>
@@ -10822,10 +11107,15 @@ overcurrent fault occurs at &gt;= 6A</text>
 </sheet>
 <sheet>
 <plain>
-<text x="35.56" y="137.16" size="6.4516" layer="91">NPN Array</text>
-<text x="149.86" y="137.16" size="6.4516" layer="91">Connectors Owo</text>
-<text x="132.08" y="58.42" size="1.778" layer="91">12v Connectors
-(temp, tbh)</text>
+<text x="38.1" y="144.78" size="6.4516" layer="91">NPN Array</text>
+<text x="172.72" y="116.84" size="6.4516" layer="91">Connectors</text>
+<text x="121.92" y="78.74" size="1.778" layer="91">I/O Expander</text>
+<text x="116.84" y="35.56" size="1.778" layer="91">(used in place of the STM
+from last year)</text>
+<text x="119.38" y="78.74" size="1.778" layer="91">
+PCAL9554CPWJ
+</text>
+<text x="99.06" y="45.72" size="1.778" layer="91">(address inputs)</text>
 </plain>
 <instances>
 <instance part="FRAME6" gate="G$1" x="0" y="0" smashed="yes">
@@ -10833,14 +11123,11 @@ overcurrent fault occurs at &gt;= 6A</text>
 <attribute name="LAST_DATE_TIME" x="181.61" y="6.35" size="2.286" layer="94" font="vector"/>
 <attribute name="SHEET" x="195.58" y="1.27" size="2.54" layer="94" font="vector"/>
 </instance>
-<instance part="U3" gate="G$1" x="55.88" y="86.36" smashed="yes"/>
+<instance part="U3" gate="G$1" x="55.88" y="104.14" smashed="yes"/>
 <instance part="U$9" gate="G$1" x="193.04" y="93.98" smashed="yes" rot="MR0">
 <attribute name="NAME" x="196.85" y="109.855" size="1.778" layer="95" font="vector" rot="MR0"/>
 </instance>
-<instance part="J18" gate="G$1" x="137.16" y="48.26" smashed="yes">
-<attribute name="VALUE" x="134.62" y="43.434" size="1.778" layer="96" font="vector"/>
-<attribute name="NAME" x="134.62" y="53.848" size="1.778" layer="95" font="vector"/>
-</instance>
+<instance part="IC1" gate="G$1" x="127" y="60.96" smashed="yes"/>
 </instances>
 <busses>
 </busses>
@@ -10848,8 +11135,8 @@ overcurrent fault occurs at &gt;= 6A</text>
 <net name="GND" class="0">
 <segment>
 <pinref part="U3" gate="G$1" pin="GND"/>
-<wire x1="55.88" y1="63.5" x2="55.88" y2="55.88" width="0.1524" layer="91"/>
-<label x="58.42" y="58.42" size="1.778" layer="95"/>
+<wire x1="55.88" y1="81.28" x2="55.88" y2="73.66" width="0.1524" layer="91"/>
+<label x="58.42" y="76.2" size="1.778" layer="95"/>
 </segment>
 <segment>
 <wire x1="200.66" y1="99.06" x2="210.82" y2="99.06" width="0.1524" layer="91"/>
@@ -10866,12 +11153,17 @@ overcurrent fault occurs at &gt;= 6A</text>
 <label x="205.74" y="101.6" size="1.778" layer="95"/>
 <pinref part="U$9" gate="G$1" pin="5"/>
 </segment>
+<segment>
+<pinref part="IC1" gate="G$1" pin="VSS"/>
+<wire x1="139.7" y1="45.72" x2="152.4" y2="45.72" width="0.1524" layer="91"/>
+<label x="149.86" y="45.72" size="1.778" layer="95" align="bottom-right"/>
+</segment>
 </net>
 <net name="12V" class="0">
 <segment>
 <pinref part="U3" gate="G$1" pin="COM"/>
-<wire x1="55.88" y1="114.3" x2="55.88" y2="121.92" width="0.1524" layer="91"/>
-<label x="55.88" y="119.38" size="1.778" layer="95"/>
+<wire x1="55.88" y1="132.08" x2="55.88" y2="139.7" width="0.1524" layer="91"/>
+<label x="55.88" y="137.16" size="1.778" layer="95"/>
 </segment>
 <segment>
 <wire x1="177.8" y1="93.98" x2="185.42" y2="93.98" width="0.1524" layer="91"/>
@@ -10881,8 +11173,8 @@ overcurrent fault occurs at &gt;= 6A</text>
 </net>
 <net name="SOL1_1" class="0">
 <segment>
-<wire x1="71.12" y1="104.14" x2="78.74" y2="104.14" width="0.1524" layer="91"/>
-<label x="73.66" y="104.14" size="1.778" layer="95"/>
+<wire x1="71.12" y1="121.92" x2="78.74" y2="121.92" width="0.1524" layer="91"/>
+<label x="73.66" y="121.92" size="1.778" layer="95"/>
 <pinref part="U3" gate="G$1" pin="OUT1"/>
 </segment>
 <segment>
@@ -10893,8 +11185,8 @@ overcurrent fault occurs at &gt;= 6A</text>
 </net>
 <net name="SOL2_1" class="0">
 <segment>
-<wire x1="71.12" y1="99.06" x2="78.74" y2="99.06" width="0.1524" layer="91"/>
-<label x="73.66" y="99.06" size="1.778" layer="95"/>
+<wire x1="71.12" y1="116.84" x2="78.74" y2="116.84" width="0.1524" layer="91"/>
+<label x="73.66" y="116.84" size="1.778" layer="95"/>
 <pinref part="U3" gate="G$1" pin="OUT2"/>
 </segment>
 <segment>
@@ -10905,8 +11197,8 @@ overcurrent fault occurs at &gt;= 6A</text>
 </net>
 <net name="SOL3_1" class="0">
 <segment>
-<wire x1="71.12" y1="93.98" x2="78.74" y2="93.98" width="0.1524" layer="91"/>
-<label x="73.66" y="93.98" size="1.778" layer="95"/>
+<wire x1="71.12" y1="111.76" x2="78.74" y2="111.76" width="0.1524" layer="91"/>
+<label x="73.66" y="111.76" size="1.778" layer="95"/>
 <pinref part="U3" gate="G$1" pin="OUT3"/>
 </segment>
 <segment>
@@ -10917,8 +11209,8 @@ overcurrent fault occurs at &gt;= 6A</text>
 </net>
 <net name="SOL4_1" class="0">
 <segment>
-<wire x1="71.12" y1="88.9" x2="78.74" y2="88.9" width="0.1524" layer="91"/>
-<label x="73.66" y="88.9" size="1.778" layer="95"/>
+<wire x1="71.12" y1="106.68" x2="78.74" y2="106.68" width="0.1524" layer="91"/>
+<label x="73.66" y="106.68" size="1.778" layer="95"/>
 <pinref part="U3" gate="G$1" pin="OUT4"/>
 </segment>
 <segment>
@@ -10929,8 +11221,8 @@ overcurrent fault occurs at &gt;= 6A</text>
 </net>
 <net name="SOL5_1" class="0">
 <segment>
-<wire x1="71.12" y1="83.82" x2="78.74" y2="83.82" width="0.1524" layer="91"/>
-<label x="73.66" y="83.82" size="1.778" layer="95"/>
+<wire x1="71.12" y1="101.6" x2="78.74" y2="101.6" width="0.1524" layer="91"/>
+<label x="73.66" y="101.6" size="1.778" layer="95"/>
 <pinref part="U3" gate="G$1" pin="OUT5"/>
 </segment>
 <segment>
@@ -10941,8 +11233,8 @@ overcurrent fault occurs at &gt;= 6A</text>
 </net>
 <net name="SOL6_1" class="0">
 <segment>
-<wire x1="71.12" y1="78.74" x2="78.74" y2="78.74" width="0.1524" layer="91"/>
-<label x="73.66" y="78.74" size="1.778" layer="95"/>
+<wire x1="71.12" y1="96.52" x2="78.74" y2="96.52" width="0.1524" layer="91"/>
+<label x="73.66" y="96.52" size="1.778" layer="95"/>
 <pinref part="U3" gate="G$1" pin="OUT6"/>
 </segment>
 <segment>
@@ -10953,44 +11245,74 @@ overcurrent fault occurs at &gt;= 6A</text>
 </net>
 <net name="GPIO1" class="0">
 <segment>
-<wire x1="40.64" y1="104.14" x2="33.02" y2="104.14" width="0.1524" layer="91"/>
-<label x="33.02" y="104.14" size="1.778" layer="95"/>
+<wire x1="40.64" y1="121.92" x2="33.02" y2="121.92" width="0.1524" layer="91"/>
+<label x="33.02" y="121.92" size="1.778" layer="95"/>
 <pinref part="U3" gate="G$1" pin="IN1"/>
+</segment>
+<segment>
+<pinref part="IC1" gate="G$1" pin="P0"/>
+<wire x1="139.7" y1="68.58" x2="152.4" y2="68.58" width="0.1524" layer="91"/>
+<label x="149.86" y="68.58" size="1.778" layer="95" align="bottom-right"/>
 </segment>
 </net>
 <net name="GPIO6" class="0">
 <segment>
-<wire x1="40.64" y1="78.74" x2="33.02" y2="78.74" width="0.1524" layer="91"/>
-<label x="33.02" y="78.74" size="1.778" layer="95"/>
+<wire x1="40.64" y1="96.52" x2="33.02" y2="96.52" width="0.1524" layer="91"/>
+<label x="33.02" y="96.52" size="1.778" layer="95"/>
 <pinref part="U3" gate="G$1" pin="IN6"/>
+</segment>
+<segment>
+<pinref part="IC1" gate="G$1" pin="P5"/>
+<wire x1="139.7" y1="55.88" x2="152.4" y2="55.88" width="0.1524" layer="91"/>
+<label x="149.86" y="55.88" size="1.778" layer="95" align="bottom-right"/>
 </segment>
 </net>
 <net name="GPIO5" class="0">
 <segment>
-<wire x1="40.64" y1="83.82" x2="33.02" y2="83.82" width="0.1524" layer="91"/>
-<label x="33.02" y="83.82" size="1.778" layer="95"/>
+<wire x1="40.64" y1="101.6" x2="33.02" y2="101.6" width="0.1524" layer="91"/>
+<label x="33.02" y="101.6" size="1.778" layer="95"/>
 <pinref part="U3" gate="G$1" pin="IN5"/>
+</segment>
+<segment>
+<pinref part="IC1" gate="G$1" pin="P4"/>
+<wire x1="139.7" y1="58.42" x2="152.4" y2="58.42" width="0.1524" layer="91"/>
+<label x="149.86" y="58.42" size="1.778" layer="95" align="bottom-right"/>
 </segment>
 </net>
 <net name="GPIO4" class="0">
 <segment>
-<wire x1="40.64" y1="88.9" x2="33.02" y2="88.9" width="0.1524" layer="91"/>
-<label x="33.02" y="88.9" size="1.778" layer="95"/>
+<wire x1="40.64" y1="106.68" x2="33.02" y2="106.68" width="0.1524" layer="91"/>
+<label x="33.02" y="106.68" size="1.778" layer="95"/>
 <pinref part="U3" gate="G$1" pin="IN4"/>
+</segment>
+<segment>
+<pinref part="IC1" gate="G$1" pin="P3"/>
+<wire x1="139.7" y1="60.96" x2="152.4" y2="60.96" width="0.1524" layer="91"/>
+<label x="149.86" y="60.96" size="1.778" layer="95" align="bottom-right"/>
 </segment>
 </net>
 <net name="GPIO3" class="0">
 <segment>
-<wire x1="40.64" y1="93.98" x2="33.02" y2="93.98" width="0.1524" layer="91"/>
-<label x="33.02" y="93.98" size="1.778" layer="95"/>
+<wire x1="40.64" y1="111.76" x2="33.02" y2="111.76" width="0.1524" layer="91"/>
+<label x="33.02" y="111.76" size="1.778" layer="95"/>
 <pinref part="U3" gate="G$1" pin="IN3"/>
+</segment>
+<segment>
+<pinref part="IC1" gate="G$1" pin="P2"/>
+<wire x1="139.7" y1="63.5" x2="152.4" y2="63.5" width="0.1524" layer="91"/>
+<label x="149.86" y="63.5" size="1.778" layer="95" align="bottom-right"/>
 </segment>
 </net>
 <net name="GPIO2" class="0">
 <segment>
-<wire x1="40.64" y1="99.06" x2="33.02" y2="99.06" width="0.1524" layer="91"/>
-<label x="33.02" y="99.06" size="1.778" layer="95"/>
+<wire x1="40.64" y1="116.84" x2="33.02" y2="116.84" width="0.1524" layer="91"/>
+<label x="33.02" y="116.84" size="1.778" layer="95"/>
 <pinref part="U3" gate="G$1" pin="IN2"/>
+</segment>
+<segment>
+<pinref part="IC1" gate="G$1" pin="P1"/>
+<wire x1="139.7" y1="66.04" x2="152.4" y2="66.04" width="0.1524" layer="91"/>
+<label x="149.86" y="66.04" size="1.778" layer="95" align="bottom-right"/>
 </segment>
 </net>
 <net name="CAN_H" class="1">
@@ -11012,6 +11334,11 @@ overcurrent fault occurs at &gt;= 6A</text>
 <wire x1="200.66" y1="104.14" x2="210.82" y2="104.14" width="0.1524" layer="91"/>
 <label x="205.74" y="104.14" size="1.778" layer="95"/>
 <pinref part="U$9" gate="G$1" pin="3"/>
+</segment>
+<segment>
+<pinref part="IC1" gate="G$1" pin="VDD"/>
+<wire x1="139.7" y1="73.66" x2="152.4" y2="73.66" width="0.1524" layer="91"/>
+<label x="149.86" y="73.66" size="1.778" layer="95" align="bottom-right"/>
 </segment>
 </net>
 <net name="SWDIO" class="0">
@@ -11077,14 +11404,39 @@ overcurrent fault occurs at &gt;= 6A</text>
 <pinref part="U$9" gate="G$1" pin="17"/>
 </segment>
 </net>
-<net name="N$5" class="0">
+<net name="SCL" class="0">
 <segment>
-<pinref part="J18" gate="G$1" pin="1"/>
-<wire x1="144.78" y1="48.26" x2="147.32" y2="48.26" width="0.1524" layer="91"/>
-<pinref part="J18" gate="G$1" pin="2"/>
-<wire x1="144.78" y1="50.8" x2="147.32" y2="50.8" width="0.1524" layer="91"/>
-<wire x1="147.32" y1="48.26" x2="147.32" y2="50.8" width="0.1524" layer="91"/>
-<label x="147.32" y="50.8" size="1.778" layer="95" xref="yes"/>
+<pinref part="IC1" gate="G$1" pin="SCL"/>
+<wire x1="116.84" y1="60.96" x2="104.14" y2="60.96" width="0.1524" layer="91"/>
+<label x="106.68" y="60.96" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="SDA" class="0">
+<segment>
+<pinref part="IC1" gate="G$1" pin="SDA"/>
+<wire x1="116.84" y1="63.5" x2="104.14" y2="63.5" width="0.1524" layer="91"/>
+<label x="106.68" y="63.5" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="N$15" class="0">
+<segment>
+<pinref part="IC1" gate="G$1" pin="A0"/>
+<wire x1="116.84" y1="55.88" x2="104.14" y2="55.88" width="0.1524" layer="91"/>
+<label x="106.68" y="55.88" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="N$16" class="0">
+<segment>
+<pinref part="IC1" gate="G$1" pin="A1"/>
+<wire x1="116.84" y1="53.34" x2="104.14" y2="53.34" width="0.1524" layer="91"/>
+<label x="106.68" y="53.34" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="N$17" class="0">
+<segment>
+<pinref part="IC1" gate="G$1" pin="A2"/>
+<wire x1="116.84" y1="50.8" x2="104.14" y2="50.8" width="0.1524" layer="91"/>
+<label x="106.68" y="50.8" size="1.778" layer="95"/>
 </segment>
 </net>
 </nets>
@@ -11111,6 +11463,11 @@ will not be understood (or retained) with this version.
 Since Version 8.3, EAGLE supports the association of 3D packages
 with devices in libraries, schematics, and board files. Those 3D
 packages will not be understood (or retained) with this version.
+</note>
+<note version="9.0" severity="warning">
+Since Version 9.0, EAGLE supports the align property for labels. 
+Labels in schematic will not be understood with this version. Update EAGLE to the latest version 
+for full support of labels. 
 </note>
 </compatibility>
 </eagle>

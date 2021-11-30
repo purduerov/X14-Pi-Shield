@@ -2693,8 +2693,10 @@ design rules under a new name.</description>
 <contactref element="U3" pad="9"/>
 <contactref element="C15" pad="+"/>
 <contactref element="U$3" pad="2"/>
+<contactref element="U$3" pad="4"/>
 <wire x1="46.101" y1="8.193" x2="45.606" y2="18.288" width="0" layer="19" extent="1-1"/>
-<wire x1="44.45" y1="2.667" x2="46.101" y2="8.193" width="0" layer="19" extent="1-1"/>
+<wire x1="46.99" y1="2.667" x2="46.101" y2="8.193" width="0" layer="19" extent="1-1"/>
+<wire x1="44.45" y1="2.667" x2="46.99" y2="2.667" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="SOL1_1">
 <contactref element="U3" pad="16"/>
@@ -2760,9 +2762,6 @@ design rules under a new name.</description>
 <contactref element="IC1" pad="16"/>
 <contactref element="U$3" pad="12"/>
 <wire x1="58.801" y1="19.84" x2="57.15" y2="2.667" width="0" layer="19" extent="16-16"/>
-</signal>
-<signal name="N$5">
-<contactref element="U$3" pad="4"/>
 </signal>
 </signals>
 <mfgpreviewcolors>

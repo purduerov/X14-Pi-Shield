@@ -11087,6 +11087,11 @@ PCAL9554CPWJ
 <label x="185.42" y="138.43" size="1.778" layer="95"/>
 <pinref part="U$3" gate="G$1" pin="13"/>
 </segment>
+<segment>
+<wire x1="195.58" y1="135.89" x2="182.88" y2="135.89" width="0.1524" layer="91"/>
+<label x="185.42" y="135.89" size="1.778" layer="95"/>
+<pinref part="U$3" gate="G$1" pin="15"/>
+</segment>
 </net>
 <net name="SOL1_1" class="0">
 <segment>
@@ -11256,13 +11261,6 @@ PCAL9554CPWJ
 <pinref part="IC1" gate="G$1" pin="SDA"/>
 <wire x1="137.16" y1="71.12" x2="124.46" y2="71.12" width="0.1524" layer="91"/>
 <label x="127" y="71.12" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="N$5" class="0">
-<segment>
-<wire x1="195.58" y1="135.89" x2="182.88" y2="135.89" width="0.1524" layer="91"/>
-<label x="185.42" y="135.89" size="1.778" layer="95"/>
-<pinref part="U$3" gate="G$1" pin="15"/>
 </segment>
 </net>
 <net name="5V" class="2">

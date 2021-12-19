@@ -8300,82 +8300,6 @@ LED</description>
 </deviceset>
 </devicesets>
 </library>
-<library name="AZ1117EH-3.3TRG1">
-<packages>
-<package name="SOT230P700X180-4N">
-<circle x="-4.452" y="2.3" radius="0.1" width="0.2" layer="21"/>
-<wire x1="-2.1" y1="3.6" x2="-2.1" y2="3" width="0.05" layer="39"/>
-<wire x1="-2.1" y1="3" x2="-4.26" y2="3" width="0.05" layer="39"/>
-<wire x1="-4.26" y1="3" x2="-4.26" y2="-3" width="0.05" layer="39"/>
-<wire x1="-4.26" y1="-3" x2="-2.1" y2="-3" width="0.05" layer="39"/>
-<wire x1="-2.1" y1="-3" x2="-2.1" y2="-3.6" width="0.05" layer="39"/>
-<wire x1="-2.1" y1="-3.6" x2="2.1" y2="-3.6" width="0.05" layer="39"/>
-<wire x1="2.1" y1="-3.6" x2="2.1" y2="-1.85" width="0.05" layer="39"/>
-<wire x1="2.1" y1="-1.85" x2="4.26" y2="-1.85" width="0.05" layer="39"/>
-<wire x1="4.26" y1="-1.85" x2="4.26" y2="1.85" width="0.05" layer="39"/>
-<wire x1="4.26" y1="1.85" x2="2.1" y2="1.85" width="0.05" layer="39"/>
-<wire x1="2.1" y1="1.85" x2="2.1" y2="3.6" width="0.05" layer="39"/>
-<wire x1="2.1" y1="3.6" x2="-2.1" y2="3.6" width="0.05" layer="39"/>
-<wire x1="-1.85" y1="-3.35" x2="-1.85" y2="3.35" width="0.127" layer="51"/>
-<wire x1="-1.85" y1="3.35" x2="1.85" y2="3.35" width="0.127" layer="51"/>
-<wire x1="1.85" y1="3.35" x2="1.85" y2="-3.35" width="0.127" layer="51"/>
-<wire x1="-1.85" y1="2.9335" x2="-1.85" y2="3.35" width="0.127" layer="21"/>
-<wire x1="-1.85" y1="3.35" x2="1.85" y2="3.35" width="0.127" layer="21"/>
-<wire x1="1.85" y1="3.35" x2="1.85" y2="1.7785" width="0.127" layer="21"/>
-<wire x1="-1.85" y1="-2.9335" x2="-1.85" y2="-3.35" width="0.127" layer="21"/>
-<wire x1="-1.85" y1="-3.35" x2="1.85" y2="-3.35" width="0.127" layer="21"/>
-<wire x1="1.85" y1="-3.35" x2="1.85" y2="-1.7785" width="0.127" layer="21"/>
-<text x="-3.302659375" y="4.6037" size="1.27101875" layer="25" ratio="10">&gt;NAME</text>
-<text x="-3.703059375" y="-6.105040625" size="1.27105" layer="27" ratio="10">&gt;VALUE</text>
-<wire x1="-1.85" y1="-3.35" x2="1.85" y2="-3.35" width="0.127" layer="51"/>
-<circle x="-1.277" y="2.427" radius="0.1" width="0.2" layer="51"/>
-<smd name="1" x="-3.075" y="2.3" dx="1.86" dy="0.9" layer="1" rot="R180"/>
-<smd name="2" x="-3.075" y="0" dx="1.86" dy="0.9" layer="1" rot="R180"/>
-<smd name="3" x="-3.075" y="-2.3" dx="1.86" dy="0.9" layer="1" rot="R180"/>
-<smd name="4" x="3.075" y="0" dx="1.86" dy="3.19" layer="1"/>
-</package>
-</packages>
-<symbols>
-<symbol name="AZ1117EH-3.3TRG1">
-<wire x1="-7.62" y1="5.08" x2="7.62" y2="5.08" width="0.1524" layer="94"/>
-<wire x1="7.62" y1="5.08" x2="7.62" y2="-5.08" width="0.1524" layer="94"/>
-<wire x1="7.62" y1="-5.08" x2="-7.62" y2="-5.08" width="0.1524" layer="94"/>
-<wire x1="-7.62" y1="-5.08" x2="-7.62" y2="5.08" width="0.1524" layer="94"/>
-<text x="-7.62941875" y="5.08628125" size="1.7802" layer="95">&gt;NAME</text>
-<text x="-7.627440625" y="-7.627440625" size="1.779740625" layer="96">&gt;VALUE</text>
-<pin name="IN" x="-10.16" y="2.54" length="short" direction="in"/>
-<pin name="ADJ/GND" x="10.16" y="-2.54" length="short" direction="pwr" rot="R180"/>
-<pin name="OUT" x="10.16" y="2.54" length="short" direction="out" rot="R180"/>
-</symbol>
-</symbols>
-<devicesets>
-<deviceset name="AZ1117EH-3.3TRG1" prefix="U">
-<description>Ldo.Vreg Pos 3, 3v 1a Sot223</description>
-<gates>
-<gate name="G$1" symbol="AZ1117EH-3.3TRG1" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="SOT230P700X180-4N">
-<connects>
-<connect gate="G$1" pin="ADJ/GND" pad="1"/>
-<connect gate="G$1" pin="IN" pad="3"/>
-<connect gate="G$1" pin="OUT" pad="2 4"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="AVAILABILITY" value="Unavailable"/>
-<attribute name="DESCRIPTION" value=" Ldo.Vreg Pos 3, 3v 1a Sot223 "/>
-<attribute name="MF" value="Diodes Inc."/>
-<attribute name="MP" value="AZ1117EH-3.3TRG1"/>
-<attribute name="PACKAGE" value="SOT-223 Diodes Inc."/>
-<attribute name="PRICE" value="None"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
-</devicesets>
-</library>
 <library name="MCR1101">
 <packages>
 <package name="SOIC-16">
@@ -9152,9 +9076,6 @@ In this library the device names are the same as the pin names of the symbols, t
 <part name="R13" library="SparkFun-Resistors" library_urn="urn:adsk.eagle:library:532" deviceset="RESISTOR" device="0603" package3d_urn="urn:adsk.eagle:package:39650/1" value=" "/>
 <part name="R14" library="SparkFun-Resistors" library_urn="urn:adsk.eagle:library:532" deviceset="RESISTOR" device="0603" package3d_urn="urn:adsk.eagle:package:39650/1" value=" "/>
 <part name="R15" library="SparkFun-Resistors" library_urn="urn:adsk.eagle:library:532" deviceset="RESISTOR" device="0603" package3d_urn="urn:adsk.eagle:package:39650/1" value=" "/>
-<part name="U2" library="AZ1117EH-3.3TRG1" deviceset="AZ1117EH-3.3TRG1" device=""/>
-<part name="C11" library="SparkFun-Capacitors" library_urn="urn:adsk.eagle:library:510" deviceset="22NF/22,000PF" device="-0603-50V-10%" package3d_urn="urn:adsk.eagle:package:37414/1" value="4.7uF"/>
-<part name="C12" library="SparkFun-Capacitors" library_urn="urn:adsk.eagle:library:510" deviceset="22NF/22,000PF" device="-0603-50V-10%" package3d_urn="urn:adsk.eagle:package:37414/1" value="4.7uF"/>
 <part name="J2" library="SparkFun-Connectors" deviceset="CONN_04" device=""/>
 <part name="J6" library="SparkFun-Connectors" deviceset="CONN_02" device=""/>
 <part name="J7" library="SparkFun-Connectors" deviceset="CONN_02" device=""/>
@@ -9163,9 +9084,7 @@ In this library the device names are the same as the pin names of the symbols, t
 <part name="D4" library="SparkFun-LED" library_urn="urn:adsk.eagle:library:529" deviceset="LED" device="0603" package3d_urn="urn:adsk.eagle:package:39354/1"/>
 <part name="R16" library="SparkFun-Resistors" library_urn="urn:adsk.eagle:library:532" deviceset="RESISTOR" device="0603" package3d_urn="urn:adsk.eagle:package:39650/1" value=" "/>
 <part name="GND30" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="GND32" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND33" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="GND34" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND35" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND36" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND37" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
@@ -10406,7 +10325,6 @@ CAN Controller MCP2515</text>
 <text x="220.98" y="147.32" size="1.778" layer="91">NMOS used for Logic Level Shifting
 Note: 2 NMOS for each 
 Open Drain Driver (SDA, SCL)</text>
-<text x="40.64" y="160.02" size="1.778" layer="91">Linear Regulator</text>
 <text x="15.24" y="73.66" size="1.778" layer="91">Do NOT solder this 0Ohm resistor
 unless current sensor is not soldered;
 used to bypass current sensor</text>
@@ -10415,8 +10333,6 @@ used to bypass current sensor</text>
 Overcurrent Fault</text>
 <text x="73.66" y="111.76" size="1.778" layer="91">Need to replace the sensor sensor with one in stock</text>
 <text x="129.54" y="162.56" size="1.778" layer="91">Should replace the ADC with a cheaper one</text>
-<text x="66.04" y="160.02" size="1.778" layer="91">Obsolete Product
-Needs to be replaced</text>
 <text x="7.62" y="43.18" size="1.778" layer="91">Power Indicator LEDs</text>
 <text x="68.58" y="43.18" size="1.778" layer="91">VOC Pin on MCR1101 determines current
 level in which fault is detected.
@@ -10463,18 +10379,6 @@ overcurrent fault occurs at &gt;= 6A</text>
 <attribute name="NAME" x="177.8" y="102.616" size="1.778" layer="95" font="vector" rot="R180" align="bottom-center"/>
 <attribute name="VALUE" x="177.8" y="105.664" size="1.778" layer="96" font="vector" rot="R180" align="top-center"/>
 </instance>
-<instance part="U2" gate="G$1" x="48.26" y="147.32" smashed="yes">
-<attribute name="NAME" x="40.63058125" y="152.40628125" size="1.7802" layer="95"/>
-<attribute name="VALUE" x="40.632559375" y="139.692559375" size="1.779740625" layer="96"/>
-</instance>
-<instance part="C11" gate="G$1" x="30.48" y="142.24" smashed="yes">
-<attribute name="NAME" x="32.004" y="145.161" size="1.778" layer="95" font="vector"/>
-<attribute name="VALUE" x="32.004" y="140.081" size="1.778" layer="96" font="vector"/>
-</instance>
-<instance part="C12" gate="G$1" x="71.12" y="144.78" smashed="yes">
-<attribute name="NAME" x="72.644" y="147.701" size="1.778" layer="95" font="vector"/>
-<attribute name="VALUE" x="72.644" y="142.621" size="1.778" layer="96" font="vector"/>
-</instance>
 <instance part="J2" gate="G$1" x="33.02" y="109.22" smashed="yes">
 <attribute name="VALUE" x="27.94" y="101.854" size="1.778" layer="96" font="vector"/>
 <attribute name="NAME" x="27.94" y="117.348" size="1.778" layer="95" font="vector"/>
@@ -10506,14 +10410,8 @@ overcurrent fault occurs at &gt;= 6A</text>
 <instance part="GND30" gate="1" x="124.46" y="121.92" smashed="yes">
 <attribute name="VALUE" x="121.92" y="119.38" size="1.778" layer="96"/>
 </instance>
-<instance part="GND32" gate="1" x="68.58" y="137.16" smashed="yes">
-<attribute name="VALUE" x="66.04" y="134.62" size="1.778" layer="96"/>
-</instance>
 <instance part="GND33" gate="1" x="175.26" y="30.48" smashed="yes">
 <attribute name="VALUE" x="172.72" y="27.94" size="1.778" layer="96"/>
-</instance>
-<instance part="GND34" gate="1" x="30.48" y="134.62" smashed="yes">
-<attribute name="VALUE" x="27.94" y="132.08" size="1.778" layer="96"/>
 </instance>
 <instance part="GND35" gate="1" x="231.14" y="43.18" smashed="yes">
 <attribute name="VALUE" x="228.6" y="40.64" size="1.778" layer="96"/>
@@ -10598,22 +10496,6 @@ overcurrent fault occurs at &gt;= 6A</text>
 <pinref part="C9" gate="G$1" pin="2"/>
 <wire x1="124.46" y1="127" x2="124.46" y2="124.46" width="0.1524" layer="91"/>
 <pinref part="GND30" gate="1" pin="GND"/>
-</segment>
-<segment>
-<pinref part="C11" gate="G$1" pin="2"/>
-<wire x1="30.48" y1="139.7" x2="30.48" y2="137.16" width="0.1524" layer="91"/>
-<pinref part="GND34" gate="1" pin="GND"/>
-</segment>
-<segment>
-<pinref part="U2" gate="G$1" pin="ADJ/GND"/>
-<wire x1="58.42" y1="144.78" x2="66.04" y2="144.78" width="0.1524" layer="91"/>
-<wire x1="66.04" y1="144.78" x2="66.04" y2="139.7" width="0.1524" layer="91"/>
-<wire x1="66.04" y1="139.7" x2="68.58" y2="139.7" width="0.1524" layer="91"/>
-<pinref part="GND32" gate="1" pin="GND"/>
-<pinref part="C12" gate="G$1" pin="2"/>
-<wire x1="71.12" y1="142.24" x2="71.12" y2="139.7" width="0.1524" layer="91"/>
-<wire x1="71.12" y1="139.7" x2="68.58" y2="139.7" width="0.1524" layer="91"/>
-<junction x="68.58" y="139.7"/>
 </segment>
 <segment>
 <pinref part="C8" gate="G$1" pin="2"/>
@@ -10707,16 +10589,6 @@ overcurrent fault occurs at &gt;= 6A</text>
 <pinref part="R13" gate="G$1" pin="1"/>
 <wire x1="233.68" y1="129.54" x2="236.22" y2="129.54" width="0.1524" layer="91"/>
 <label x="236.22" y="129.54" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="U2" gate="G$1" pin="IN"/>
-<wire x1="38.1" y1="149.86" x2="30.48" y2="149.86" width="0.1524" layer="91"/>
-<pinref part="C11" gate="G$1" pin="1"/>
-<wire x1="30.48" y1="149.86" x2="30.48" y2="147.32" width="0.1524" layer="91"/>
-<wire x1="30.48" y1="149.86" x2="27.94" y2="149.86" width="0.1524" layer="91"/>
-<junction x="30.48" y="149.86"/>
-<wire x1="27.94" y1="149.86" x2="27.94" y2="152.4" width="0.1524" layer="91"/>
-<label x="27.94" y="152.4" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
 <pinref part="J2" gate="G$1" pin="4"/>
@@ -10815,14 +10687,6 @@ overcurrent fault occurs at &gt;= 6A</text>
 <pinref part="R12" gate="G$1" pin="2"/>
 <wire x1="213.36" y1="104.14" x2="208.28" y2="104.14" width="0.1524" layer="91"/>
 <label x="208.28" y="104.14" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="U2" gate="G$1" pin="OUT"/>
-<pinref part="C12" gate="G$1" pin="1"/>
-<wire x1="58.42" y1="149.86" x2="71.12" y2="149.86" width="0.1524" layer="91"/>
-<wire x1="71.12" y1="149.86" x2="71.12" y2="152.4" width="0.1524" layer="91"/>
-<junction x="71.12" y="149.86"/>
-<label x="71.12" y="152.4" size="1.778" layer="95" xref="yes"/>
 </segment>
 <segment>
 <pinref part="J2" gate="G$1" pin="3"/>
@@ -11237,18 +11101,6 @@ PCAL9554CPWJ
 <label x="170.18" y="73.66" size="1.778" layer="95" align="bottom-right"/>
 </segment>
 </net>
-<net name="+3V3" class="0">
-<segment>
-<pinref part="IC1" gate="G$1" pin="VDD"/>
-<wire x1="160.02" y1="81.28" x2="172.72" y2="81.28" width="0.1524" layer="91"/>
-<label x="170.18" y="81.28" size="1.778" layer="95" align="bottom-right"/>
-</segment>
-<segment>
-<wire x1="182.88" y1="125.73" x2="195.58" y2="125.73" width="0.1524" layer="91"/>
-<pinref part="U$3" gate="G$1" pin="23"/>
-<label x="185.42" y="125.73" size="1.778" layer="95"/>
-</segment>
-</net>
 <net name="SCL" class="0">
 <segment>
 <pinref part="IC1" gate="G$1" pin="SCL"/>
@@ -11268,6 +11120,18 @@ PCAL9554CPWJ
 <wire x1="195.58" y1="130.81" x2="182.88" y2="130.81" width="0.1524" layer="91"/>
 <pinref part="U$3" gate="G$1" pin="19"/>
 <label x="185.42" y="130.81" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="3V3" class="3">
+<segment>
+<pinref part="IC1" gate="G$1" pin="VDD"/>
+<wire x1="160.02" y1="81.28" x2="172.72" y2="81.28" width="0.1524" layer="91"/>
+<label x="170.18" y="81.28" size="1.778" layer="95" align="bottom-right"/>
+</segment>
+<segment>
+<wire x1="182.88" y1="125.73" x2="195.58" y2="125.73" width="0.1524" layer="91"/>
+<pinref part="U$3" gate="G$1" pin="23"/>
+<label x="185.42" y="125.73" size="1.778" layer="95"/>
 </segment>
 </net>
 </nets>

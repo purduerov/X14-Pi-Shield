@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.6.2">
+<eagle version="9.5.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="50" unitdist="mil" unit="mil" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -8567,7 +8567,7 @@ by exp-lbrs.ulp</description>
 </library>
 <library name="PI-SHIELD, Solenoid-Backplane">
 <packages>
-<package name="IPL6X2" urn="urn:adsk.eagle:footprint:25179488/1" locally_modified="yes">
+<package name="IPL7X2" urn="urn:adsk.eagle:footprint:25179488/1" locally_modified="yes">
 <pad name="1" x="2.032" y="3.81" drill="1.016" diameter="1.524"/>
 <pad name="2" x="2.032" y="1.27" drill="1.016" diameter="1.524"/>
 <pad name="3" x="4.572" y="3.81" drill="1.016" diameter="1.524"/>
@@ -8581,24 +8581,27 @@ by exp-lbrs.ulp</description>
 <pad name="11" x="14.732" y="3.81" drill="1.016" diameter="1.524"/>
 <pad name="12" x="14.732" y="1.27" drill="1.016" diameter="1.524"/>
 <wire x1="0" y1="5.08" x2="0" y2="0" width="0.1524" layer="21"/>
-<wire x1="0" y1="0" x2="16.764" y2="0" width="0.1524" layer="21"/>
-<wire x1="16.764" y1="0" x2="16.764" y2="5.08" width="0.1524" layer="21"/>
-<wire x1="16.764" y1="5.08" x2="0" y2="5.08" width="0.1524" layer="21"/>
+<wire x1="0" y1="0" x2="19.304" y2="0" width="0.1524" layer="21"/>
+<wire x1="19.304" y1="0" x2="19.304" y2="5.08" width="0.1524" layer="21"/>
+<wire x1="19.304" y1="5.08" x2="0" y2="5.08" width="0.1524" layer="21"/>
 <wire x1="0" y1="5.08" x2="0" y2="0" width="0.1524" layer="39"/>
-<wire x1="0" y1="0" x2="16.764" y2="0" width="0.1524" layer="39"/>
-<wire x1="16.764" y1="0" x2="16.764" y2="5.08" width="0.1524" layer="39"/>
-<wire x1="16.764" y1="5.08" x2="0" y2="5.08" width="0.1524" layer="39"/>
+<wire x1="0" y1="0" x2="19.304" y2="0" width="0.1524" layer="39"/>
+<wire x1="19.304" y1="0" x2="19.304" y2="5.08" width="0.1524" layer="39"/>
+<wire x1="19.304" y1="5.08" x2="0" y2="5.08" width="0.1524" layer="39"/>
+<pad name="13" x="17.272" y="3.81" drill="1.016" diameter="1.524"/>
+<pad name="14" x="17.272" y="1.27" drill="1.016" diameter="1.524"/>
+<text x="0" y="5.08" size="1.27" layer="25">&gt;NAME</text>
 </package>
 </packages>
 <symbols>
-<symbol name="CONN_6X2">
+<symbol name="CONN_7X2">
 <description>&lt;h3&gt; 24 Pin Connection&lt;/h3&gt;
 
 12x2 pin layout</description>
-<wire x1="-3.81" y1="-8.89" x2="3.81" y2="-8.89" width="0.4064" layer="94"/>
-<wire x1="3.81" y1="-8.89" x2="3.81" y2="8.89" width="0.4064" layer="94"/>
+<wire x1="-3.81" y1="-10.795" x2="3.81" y2="-10.795" width="0.4064" layer="94"/>
+<wire x1="3.81" y1="-10.795" x2="3.81" y2="8.89" width="0.4064" layer="94"/>
 <wire x1="3.81" y1="8.89" x2="-3.81" y2="8.89" width="0.4064" layer="94"/>
-<wire x1="-3.81" y1="8.89" x2="-3.81" y2="-8.89" width="0.4064" layer="94"/>
+<wire x1="-3.81" y1="8.89" x2="-3.81" y2="-10.795" width="0.4064" layer="94"/>
 <wire x1="-2.54" y1="6.35" x2="-1.27" y2="6.35" width="0.6096" layer="94"/>
 <wire x1="-2.54" y1="3.81" x2="-1.27" y2="3.81" width="0.6096" layer="94"/>
 <wire x1="-2.54" y1="1.27" x2="-1.27" y2="1.27" width="0.6096" layer="94"/>
@@ -8609,7 +8612,7 @@ by exp-lbrs.ulp</description>
 <wire x1="1.27" y1="1.27" x2="2.54" y2="1.27" width="0.6096" layer="94"/>
 <wire x1="1.27" y1="-1.27" x2="2.54" y2="-1.27" width="0.6096" layer="94"/>
 <wire x1="1.27" y1="-3.81" x2="2.54" y2="-3.81" width="0.6096" layer="94"/>
-<text x="-8.89" y="10.795" size="1.778" layer="95" font="vector">&gt;IPL 6x2 Samtec </text>
+<text x="-4.445" y="9.525" size="1.778" layer="95" font="vector">&gt;NAME</text>
 <pin name="13" x="-7.62" y="6.35" visible="pad" length="middle" direction="pas"/>
 <pin name="14" x="7.62" y="6.35" visible="pad" length="middle" direction="pas" rot="R180"/>
 <pin name="15" x="-7.62" y="3.81" visible="pad" length="middle" direction="pas"/>
@@ -8624,16 +8627,21 @@ by exp-lbrs.ulp</description>
 <wire x1="1.27" y1="-6.35" x2="2.54" y2="-6.35" width="0.6096" layer="94"/>
 <pin name="23" x="-7.62" y="-6.35" visible="pad" length="middle" direction="pas"/>
 <pin name="24" x="7.62" y="-6.35" visible="pad" length="middle" direction="pas" rot="R180"/>
+<wire x1="1.27" y1="-8.89" x2="2.54" y2="-8.89" width="0.6096" layer="94"/>
+<pin name="1" x="7.62" y="-8.89" visible="pad" length="middle" direction="pas" rot="R180"/>
+<wire x1="-1.27" y1="-8.89" x2="-2.54" y2="-8.89" width="0.6096" layer="94"/>
+<pin name="2" x="-7.62" y="-8.89" visible="pad" length="middle" direction="pas"/>
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="6X_CONN">
+<deviceset name="7X_CONN">
 <gates>
-<gate name="G$1" symbol="CONN_6X2" x="0" y="0"/>
+<gate name="G$1" symbol="CONN_7X2" x="0" y="0"/>
 </gates>
 <devices>
-<device name="" package="IPL6X2">
+<device name="" package="IPL7X2">
 <connects>
+<connect gate="G$1" pin="1" pad="13"/>
 <connect gate="G$1" pin="13" pad="2"/>
 <connect gate="G$1" pin="14" pad="1"/>
 <connect gate="G$1" pin="15" pad="4"/>
@@ -8641,6 +8649,7 @@ by exp-lbrs.ulp</description>
 <connect gate="G$1" pin="17" pad="6"/>
 <connect gate="G$1" pin="18" pad="5"/>
 <connect gate="G$1" pin="19" pad="8"/>
+<connect gate="G$1" pin="2" pad="14"/>
 <connect gate="G$1" pin="20" pad="7"/>
 <connect gate="G$1" pin="21" pad="10"/>
 <connect gate="G$1" pin="22" pad="9"/>
@@ -8787,7 +8796,7 @@ by exp-lbrs.ulp</description>
 <part name="FRAME6" library="SparkFun-Aesthetics" library_urn="urn:adsk.eagle:library:507" deviceset="FRAME-A4L" device=""/>
 <part name="U3" library="ULN2003V12" deviceset="ULN2003V12" device=""/>
 <part name="C15" library="SparkFun-Capacitors" library_urn="urn:adsk.eagle:library:510" deviceset="47UF-POLAR" device="-PANASONIC_D-35V-20%" package3d_urn="urn:adsk.eagle:package:37420/1" value="47uF"/>
-<part name="U$3" library="PI-SHIELD, Solenoid-Backplane" deviceset="6X_CONN" device=""/>
+<part name="U$9" library="PI-SHIELD, Solenoid-Backplane" deviceset="7X_CONN" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -9994,15 +10003,15 @@ CAN Controller MCP2515</text>
 <net name="GPIO1" class="0">
 <segment>
 <pinref part="U$8" gate="G$1" pin="GPIO18"/>
-<wire x1="25.4" y1="43.18" x2="20.32" y2="43.18" width="0.1524" layer="91"/>
-<label x="20.32" y="43.18" size="1.778" layer="95" rot="R180" xref="yes"/>
+<wire x1="25.4" y1="43.18" x2="19.05" y2="43.18" width="0.1524" layer="91"/>
+<label x="19.05" y="43.18" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="GPIO2" class="0">
 <segment>
 <pinref part="U$8" gate="G$1" pin="GPIO23"/>
-<wire x1="25.4" y1="53.34" x2="20.32" y2="53.34" width="0.1524" layer="91"/>
-<label x="20.32" y="53.34" size="1.778" layer="95" rot="R180" xref="yes"/>
+<wire x1="25.4" y1="53.34" x2="19.05" y2="53.34" width="0.1524" layer="91"/>
+<label x="19.05" y="53.34" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="GPIO3" class="0">
@@ -10022,8 +10031,8 @@ CAN Controller MCP2515</text>
 <net name="GPIO5" class="0">
 <segment>
 <pinref part="U$8" gate="G$1" pin="GPIO12"/>
-<wire x1="25.4" y1="93.98" x2="20.32" y2="93.98" width="0.1524" layer="91"/>
-<label x="20.32" y="93.98" size="1.778" layer="95" rot="R180" xref="yes"/>
+<wire x1="25.4" y1="93.98" x2="19.05" y2="93.98" width="0.1524" layer="91"/>
+<label x="19.05" y="93.98" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="GPIO6" class="0">
@@ -10595,7 +10604,9 @@ overcurrent fault occurs at &gt;= 6A</text>
 <attribute name="NAME" x="69.596" y="48.895" size="1.778" layer="95" font="vector"/>
 <attribute name="VALUE" x="69.596" y="44.069" size="1.778" layer="96" font="vector"/>
 </instance>
-<instance part="U$3" gate="G$1" x="203.2" y="132.08" smashed="yes"/>
+<instance part="U$9" gate="G$1" x="203.2" y="132.08" smashed="yes">
+<attribute name="NAME" x="198.755" y="141.605" size="1.778" layer="95" font="vector"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -10614,12 +10625,12 @@ overcurrent fault occurs at &gt;= 6A</text>
 <segment>
 <wire x1="195.58" y1="133.35" x2="182.88" y2="133.35" width="0.1524" layer="91"/>
 <label x="185.42" y="133.35" size="1.778" layer="95"/>
-<pinref part="U$3" gate="G$1" pin="17"/>
+<pinref part="U$9" gate="G$1" pin="17"/>
 </segment>
 <segment>
 <wire x1="195.58" y1="128.27" x2="182.88" y2="128.27" width="0.1524" layer="91"/>
 <label x="185.42" y="128.27" size="1.778" layer="95"/>
-<pinref part="U$3" gate="G$1" pin="21"/>
+<pinref part="U$9" gate="G$1" pin="21"/>
 </segment>
 </net>
 <net name="12V" class="0">
@@ -10636,12 +10647,12 @@ overcurrent fault occurs at &gt;= 6A</text>
 <segment>
 <wire x1="195.58" y1="138.43" x2="182.88" y2="138.43" width="0.1524" layer="91"/>
 <label x="185.42" y="138.43" size="1.778" layer="95"/>
-<pinref part="U$3" gate="G$1" pin="13"/>
+<pinref part="U$9" gate="G$1" pin="13"/>
 </segment>
 <segment>
 <wire x1="195.58" y1="135.89" x2="182.88" y2="135.89" width="0.1524" layer="91"/>
 <label x="185.42" y="135.89" size="1.778" layer="95"/>
-<pinref part="U$3" gate="G$1" pin="15"/>
+<pinref part="U$9" gate="G$1" pin="15"/>
 </segment>
 </net>
 <net name="SOL1_1" class="0">
@@ -10653,7 +10664,7 @@ overcurrent fault occurs at &gt;= 6A</text>
 <segment>
 <wire x1="223.52" y1="138.43" x2="210.82" y2="138.43" width="0.1524" layer="91"/>
 <label x="213.36" y="138.43" size="1.778" layer="95"/>
-<pinref part="U$3" gate="G$1" pin="14"/>
+<pinref part="U$9" gate="G$1" pin="14"/>
 </segment>
 </net>
 <net name="SOL2_1" class="0">
@@ -10665,7 +10676,7 @@ overcurrent fault occurs at &gt;= 6A</text>
 <segment>
 <wire x1="223.52" y1="135.89" x2="210.82" y2="135.89" width="0.1524" layer="91"/>
 <label x="213.36" y="135.89" size="1.778" layer="95"/>
-<pinref part="U$3" gate="G$1" pin="16"/>
+<pinref part="U$9" gate="G$1" pin="16"/>
 </segment>
 </net>
 <net name="SOL3_1" class="0">
@@ -10677,7 +10688,7 @@ overcurrent fault occurs at &gt;= 6A</text>
 <segment>
 <wire x1="223.52" y1="133.35" x2="210.82" y2="133.35" width="0.1524" layer="91"/>
 <label x="213.36" y="133.35" size="1.778" layer="95"/>
-<pinref part="U$3" gate="G$1" pin="18"/>
+<pinref part="U$9" gate="G$1" pin="18"/>
 </segment>
 </net>
 <net name="SOL4_1" class="0">
@@ -10689,7 +10700,7 @@ overcurrent fault occurs at &gt;= 6A</text>
 <segment>
 <wire x1="223.52" y1="130.81" x2="210.82" y2="130.81" width="0.1524" layer="91"/>
 <label x="213.36" y="130.81" size="1.778" layer="95"/>
-<pinref part="U$3" gate="G$1" pin="20"/>
+<pinref part="U$9" gate="G$1" pin="20"/>
 </segment>
 </net>
 <net name="SOL5_1" class="0">
@@ -10701,7 +10712,7 @@ overcurrent fault occurs at &gt;= 6A</text>
 <segment>
 <wire x1="223.52" y1="128.27" x2="210.82" y2="128.27" width="0.1524" layer="91"/>
 <label x="213.36" y="128.27" size="1.778" layer="95"/>
-<pinref part="U$3" gate="G$1" pin="22"/>
+<pinref part="U$9" gate="G$1" pin="22"/>
 </segment>
 </net>
 <net name="SOL6_1" class="0">
@@ -10713,7 +10724,7 @@ overcurrent fault occurs at &gt;= 6A</text>
 <segment>
 <wire x1="223.52" y1="125.73" x2="210.82" y2="125.73" width="0.1524" layer="91"/>
 <label x="213.36" y="125.73" size="1.778" layer="95"/>
-<pinref part="U$3" gate="G$1" pin="24"/>
+<pinref part="U$9" gate="G$1" pin="24"/>
 </segment>
 </net>
 <net name="GPIO1" class="0">
@@ -10761,15 +10772,29 @@ overcurrent fault occurs at &gt;= 6A</text>
 <net name="5V" class="2">
 <segment>
 <wire x1="195.58" y1="130.81" x2="182.88" y2="130.81" width="0.1524" layer="91"/>
-<pinref part="U$3" gate="G$1" pin="19"/>
 <label x="185.42" y="130.81" size="1.778" layer="95"/>
+<pinref part="U$9" gate="G$1" pin="19"/>
 </segment>
 </net>
 <net name="3V3" class="3">
 <segment>
 <wire x1="182.88" y1="125.73" x2="195.58" y2="125.73" width="0.1524" layer="91"/>
-<pinref part="U$3" gate="G$1" pin="23"/>
 <label x="185.42" y="125.73" size="1.778" layer="95"/>
+<pinref part="U$9" gate="G$1" pin="23"/>
+</segment>
+</net>
+<net name="CAN_L" class="1">
+<segment>
+<pinref part="U$9" gate="G$1" pin="2"/>
+<wire x1="195.58" y1="123.19" x2="182.88" y2="123.19" width="0.1524" layer="91"/>
+<label x="185.42" y="123.19" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="CAN_H" class="1">
+<segment>
+<pinref part="U$9" gate="G$1" pin="1"/>
+<wire x1="210.82" y1="123.19" x2="223.52" y2="123.19" width="0.1524" layer="91"/>
+<label x="213.36" y="123.19" size="1.778" layer="95"/>
 </segment>
 </net>
 </nets>
